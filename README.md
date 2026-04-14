@@ -1,14 +1,14 @@
 # UltraBot - YouTube Live Chat Controller
 
-A powerful tool that allows you to control your Virtual Machine through YouTube live chat.
-
 ## ⚠️ IMPORTANT NOTICE
 
-**This program is detected as a virus by Windows Defender.**
+This repository does **not** contain the source code.
 
-This is a **false positive**. The executable is packed and obfuscated using PyArmor to protect the source code. This is a common issue with obfuscated Python executables. The script itself is completely safe and contains no malicious code.
+Only the compiled executable (.exe) is provided. The source code is kept private.
 
-If you don't trust the .exe file, just delete the .exe file.
+Windows Defender may flag this file as a virus. This is a **false positive** caused by PyArmor obfuscation, which is used to protect the source code.
+
+**If you don't trust the .exe file, just delete the .exe file.**
 
 ## How to Use
 
