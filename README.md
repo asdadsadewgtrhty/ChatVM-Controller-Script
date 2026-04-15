@@ -39,8 +39,6 @@ Windows Defender may flag this file as a virus. This is a **false positive** cau
 
 Most commands are used directly in your YouTube live chat with `!` prefix.
 
-For the full list of commands, type `!votehelp` in the chat or check the console.
-
 ## Admin Commands (Console Only)
 
 - `!startvm`
@@ -55,6 +53,68 @@ For the full list of commands, type `!votehelp` in the chat or check the console
 - Do not close the console window while the bot is running.
 - Make sure VirtualBox is installed and your VM name is correct.
 - Only the streamer (you) can use admin commands in the console.
+
+## ALL COMMANDS:
+
+🔄 System Control
+!restartvm → Requires ALL active users to vote (full majority). Restarts the VM.
+Example: !restartvm
+
+!revert → Requires ALL active users to vote (full majority). Restores the latest snapshot.
+Example: !revert
+
+⚡ Power & Window
+!startvm 
+Start the VM (cooldown enforced).
+Example: !startvm
+
+🖱️ Mouse Control
+!move / !mouse / !mv → Move cursor (dx dy or direction).
+Example: !move 50 -20 / !move up
+
+!abs / !cursor / !moveabs → Move cursor absolute (scaled).
+Example: !abs 800 400
+
+!drag / !dragrel → Drag relative (optional button).
+Example: !drag 100 50
+
+!dragabs / !drag_absolute → Drag absolute (scaled).
+Example: !dragabs right 900 500
+
+!click / !lclick → Left click [count].
+Example: !click 2
+
+!rclick / !rightclick → Right click [count].
+Example: !rclick
+
+!mclick / !middleclick → Middle click [count].
+Example: !mclick
+
+!scroll / !wheel → Scroll delta.
+Example: !scroll -120
+
+⌨️ Keyboard Control
+!type → Type text.
+Example: !type hello world
+
+!typeenter / !send → Type then Enter.
+Example: !send hello world
+
+!key / !press → Press key [duration].
+Example: !key esc
+
+!combo → Press keys together.
+Example: !combo ctrl+shift+esc
+
+!hold → Hold key.
+Example: !hold tab
+
+!release → Release key.
+Example: !release tab
+
+🕒 Timing & Display
+!wait → Delay next command.
+Example: !wait 1.5
 
 ---
 
