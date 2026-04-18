@@ -6,7 +6,7 @@ This repository does **not** contain the source code.
 
 Only the compiled executable (.exe) is provided. The source code is kept private.
 
-Windows Defender may flag this file as a virus. This is a **false positive** caused by PyArmor obfuscation, which is used to protect the source code.
+**Windows Defender may flag this file as a virus. This is a **false positive** caused by PyArmor obfuscation, which is used to protect the source code.**
 
 **If you don't trust the .exe file, just delete the .exe file.**
 
@@ -117,5 +117,3 @@ Example: !release tab
 Example: !wait 1.5
 
 ---
-
-**Made with ❤️ by @Nexora-WN**
